@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.results-and-summary-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    box-shadow: 5px 5px 30px rgb(217, 217, 217);
+    border-radius: 9%;
+    margin-top: 1.5%;
+}
+.results-container{
+    background: linear-gradient(to bottom, #2044d5d2, #0059fe);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    color: white;
+    transition: ease-in-out .4s;
+    margin-right: 10px;
+}
+.results-container:hover{
+    scale: 1.04;
+    box-shadow: 1px 1px 10px #0059fe;
+}
+.score-number-circle{
+    display: flex;
+    border-radius: 100%;
+    background: linear-gradient(to bottom, #1e3ec0, #ffffff00);
+    padding: 30%;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Trebuchet MS';
+}
+.results-tittle{
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-top: 11%;
+    font-size: x-large;
+    opacity: .85;
+    color: rgb(215, 213, 213);
+}
+.score-number{
+    display: flex;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: 'Trebuchet MS';
+    margin-top: -45%;
+}
+.of-score-number{
+    margin-top: 0%;
+    color: rgb(192, 191, 191);
+    display: flex;
+    opacity: .7;
+    font-size: 120%;
+    font-weight: 600;
+}
+.message{
+margin-top: 18%;
+font-size: 250%;
+font-weight: light;
+}
+.info-text{
+    font-size: larger;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: -3%;
+    opacity: .7;
+    margin-bottom: 14%;
+}
+.summary-container{
+    background: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    transition: ease-in .3s;
+    margin-left: 6px;
+    padding: 3%;
+}
+.summary-container:hover{
+    transform: translateX(10px);
+    box-shadow: 1px 1px 20px gray;
+}
+.summary-tittle{
+    display: flex;
+    font-weight: bold;
+    font-size: 150%;
+    opacity: .8;
+    color: #071346;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.score-results-container{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    margin: 0px;
+    height: 380px;
+}
+.reaction-section{
+    display: flex;
+    flex: 1;
+    background-color: #ffadad2a ;
+    color: #fb5858;
+    opacity: .8;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.memory-section{
+    display: flex;
+    flex: 1;
+    background-color: #fdffb664;
+    color: #f8ba6e;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.verbal-section{
+    display: flex;
+    flex: 1;
+    background-color: #bfffec74;
+    color: #2fbe96;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.visual-section{
+    display: flex;
+    flex: 1;
+    background-color: #a0c4ff3c;
+    color: #4529e9;
+    opacity: .7;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.icon{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.text{
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 36px;
+}
+.score{
+    width: 100px;
+}
+.item1{
+    margin-left: 14px;
+    margin-top: 20px;
+}
+.item2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.item3{
+    margin-left: 34px;
+    margin-top: 20px;
+}
+.item4{
+    margin-left: 34px;
+    margin-top: 20px;
+}
+.button-containter{
+    margin-top: 10px;
+}
+.continue-button{
+    font-size: larger;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #071346;
+    color: white;
+    opacity: .7;
+    letter-spacing: 1px;
+    transition: ease-in .4s;
+    margin-top: 10px;
+}
+.continue-button:hover{
+    background-color: white;
+    color: #071346;
+    box-shadow: 0 0 10px #071346;
+    cursor: pointer;
+}
